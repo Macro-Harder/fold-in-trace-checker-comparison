@@ -16,6 +16,8 @@ The second build was made under a 23 step build flow, with audits and tests firs
 
 ## The flow build, measured
 
-- 5,043 lines of product code and 7,001 lines of tests.
+Measured on the finished tree on 2026-11-12, after the build completed. An earlier version of this page carried mid-build figures; they were corrected on the same day.
+
+- 5,366 lines of product code in its single product file, and 8,595 lines of tests in the test suite files, 11,622 lines under tests/ in total with fixtures included.
 - Final test suite of 443 tests, with 443 passing, run from a clean copy at the release gate.
 - It reads the real trace grammar. At its live proof it checked the real 169 row Step 9 trace.
