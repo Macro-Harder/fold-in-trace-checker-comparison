@@ -1,15 +1,13 @@
-# Fold-in trace checker: the comparison
+# Fold-in trace checker: the free build
 
-This repository holds the free build of a fold-in trace checker, together with a measured comparison against the same specification built under a full build flow.
+This repository holds trace_checker.py, a single file fold-in trace checker, with sample files under examples/.
 
-What is in it:
+Run it:
 
-- trace_checker.py, the free build itself: one file, 285 lines, written by a single agent from the product specification alone, with no process rules. Sample files sit under examples/.
-- COMPARISON.md, which sets out what the two builds are and how they measured up.
-- LICENSE, Apache 2.0.
+    python3 trace_checker.py TRACE TARGET [TARGET ...]
 
-The flow built version is here: https://github.com/Macro-Harder/fold-in-trace-checker
+The full version is here: https://github.com/Macro-Harder/fold-in-trace-checker
 
-To run the free build: python3 trace_checker.py TRACE TARGET [TARGET ...]
+## License
 
-The free build's own README, written alongside the tool, arrived with the free build files and is preserved in this repository's history, in the commit that added them.
+Apache License 2.0.
